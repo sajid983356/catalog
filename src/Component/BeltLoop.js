@@ -2,9 +2,9 @@ import React from "react";
 import CarouselComponent from "./Carousel";
 import ProductCard from "./ProductCard";
 
-function Yellow(){
+function BeltLoop(){
     let category = {
-        category: "yellow"
+        category: "belt_loop"
     }
     return (
         <div className="px-2">
@@ -15,4 +15,4 @@ function Yellow(){
     )
 }
 
-export default Yellow;
+export default BeltLoop;

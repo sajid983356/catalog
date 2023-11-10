@@ -2,9 +2,9 @@ import React from "react";
 import CarouselComponent from "./Carousel";
 import ProductCard from "./ProductCard";
 
-function ViewAll(){
+function Rings(){
     let category = {
-        category: "viewall"
+        category: "rings"
     }
     return (
         <div className="px-2">
@@ -15,4 +15,4 @@ function ViewAll(){
     )
 }
 
-export default ViewAll;
+export default Rings;

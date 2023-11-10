@@ -2,9 +2,9 @@ import React from "react";
 import CarouselComponent from "./Carousel";
 import ProductCard from "./ProductCard";
 
-function Green(){
+function ViewAll(){
     let category = {
-        category: "green"
+        category: "view_all"
     }
     return (
         <div className="px-2">
@@ -15,4 +15,4 @@ function Green(){
     )
 }
 
-export default Green;
+export default ViewAll;

@@ -1,0 +1,137 @@
+{
+  "carousel": {
+    "folderName": "carousel",
+    "category": [
+      {
+        "imageName": "one.jpg",
+        "title": "ONE BANNER"
+      },
+      {
+        "imageName": "two.jpg",
+        "title": "TWO BANNER"
+      },
+      {
+        "imageName": "three.jpg",
+        "title": "THREE BANNER"
+      },
+      {
+        "imageName": "four.jpg",
+        "title": "FOUR BANNER"
+      }
+    ]
+  },
+  "view_all": [
+    {
+      "folderName": "belt loop",
+      "category": [
+        {
+          "subFolderName": "two",
+          "imageName": ["one.jpg", "two.jpg"],
+          "title": "A Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "three",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
+          "title": "B Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "four",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg", "four.jpg"],
+          "title": "C Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "rings",
+      "category": [
+        {
+          "subFolderName": "two",
+          "imageName": ["one.jpg", "two.jpg"],
+          "title": "E Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "three",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
+          "title": "F Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "four",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg", "four.jpg"],
+          "title": "Z Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    }
+  ],
+  "belt_loop": [
+    {
+      "folderName": "belt loop",
+      "category": [
+        {
+          "subFolderName": "two",
+          "imageName": ["one.jpg", "two.jpg"],
+          "title": "A Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "three",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
+          "title": "B Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "four",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg", "four.jpg"],
+          "title": "C Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    }
+  ],
+  "rings": [
+    {
+      "folderName": "rings",
+      "category": [
+        {
+          "subFolderName": "two",
+          "imageName": ["one.jpg", "two.jpg"],
+          "title": "E Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "three",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
+          "title": "F Belt Loop",
+          "description": "Finish Nickel",
+          "size": "Size refers to inside dimension from 10mm to 50mm",
+          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    }
+  ]
+}
