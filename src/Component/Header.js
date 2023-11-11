@@ -6,10 +6,11 @@ import Contact from './Contact';
 import Rings from './Rings';
 import ViewAll from './ViewAll';
 import BeltLoop from './BeltLoop';
+import Menu from './Menu';
+
 
 function Header() {
   return (
-    <Router>
     <Navbar expand="lg" className="d-flex px-2">
       <Navbar.Brand href="/">ELEGANT BUCKLES</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
@@ -27,17 +28,6 @@ function Header() {
         </Nav>
       </Navbar.Collapse>
     </Navbar>
-
-    <Routes>
-        <Route path="/about-us" element={<About />} />
-        <Route path='/' element={<Home />}/>
-        <Route path='/contact-us' element={<Contact />} />
-        <Route path='/category/view_all' element={<ViewAll />} />
-        <Route path='/category/belt_loop' element={<BeltLoop />}/>
-        <Route path='/category/rings' element={<Rings />}/>
-
-      </Routes>
-    </Router>
   );
 }
 
