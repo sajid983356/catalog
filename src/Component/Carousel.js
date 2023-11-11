@@ -20,7 +20,7 @@ function CarouselComponent() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h5>{obj.title}</h5>
+            <h5>{obj.title.toUpperCase()}</h5>
           </Carousel.Caption>
         </Carousel.Item>
         ))

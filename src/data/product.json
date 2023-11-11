@@ -1,85 +1,533 @@
 {
-  "carousel": {
+"carousel": {
     "folderName": "carousel",
     "category": [
       {
-        "imageName": "one.jpg",
-        "title": "ONE BANNER"
+        "imageName": "Double Loop Slider.jpg",
+        "title": "Double Loop Slider"
       },
       {
-        "imageName": "two.jpg",
-        "title": "TWO BANNER"
+        "imageName": "Heel Bar Buckle.jpg",
+        "title": "Heel Bar Buckle"
       },
       {
-        "imageName": "three.jpg",
-        "title": "THREE BANNER"
+        "imageName": "Lever Snaps.jpg",
+        "title": "Lever Snaps"
       },
       {
-        "imageName": "four.jpg",
-        "title": "FOUR BANNER"
+        "imageName": "roller buckle.jpg",
+        "title": "roller buckle"
+      },
+      {
+        "imageName": "diamond buckle.jpg",
+        "title": "diamond buckle"
       }
     ]
   },
+
   "view_all": [
     {
-      "folderName": "belt loop",
+      "folderName": "belt loops",
       "category": [
         {
-          "subFolderName": "two",
-          "imageName": ["one.jpg", "two.jpg"],
-          "title": "A Belt Loop",
-          "description": "Finish Nickel",
-          "size": "Size refers to inside dimension from 10mm to 50mm",
-          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+          "subFolderName": "Belt Loop (Antique Brass)",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt Loop (Antique Brass)",
+
+          "description": "Finish: Antique Brass",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
         },
         {
-          "subFolderName": "three",
-          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
-          "title": "B Belt Loop",
-          "description": "Finish Nickel",
-          "size": "Size refers to inside dimension from 10mm to 50mm",
-          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+          "subFolderName": "Belt Loop (Brass)",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt Loop (Antique Brass)",
+          "description": "Finish: Brass",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
         },
         {
-          "subFolderName": "four",
-          "imageName": ["one.jpg", "two.jpg", "three.jpg", "four.jpg"],
-          "title": "C Belt Loop",
-          "description": "Finish Nickel",
-          "size": "Size refers to inside dimension from 10mm to 50mm",
-          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+          "subFolderName": "Belt Loop Nickel Matte",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt Loop (Antique Brass)",
+          "description": "Finish: Nickel Matte",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "Belt loops (Nickel)",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt loops (Nickel)",
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
         }
       ]
     },
     {
-      "folderName": "rings",
+      "folderName": "bolt snaps",
       "category": [
         {
-          "subFolderName": "two",
-          "imageName": ["one.jpg", "two.jpg"],
-          "title": "E Belt Loop",
-          "description": "Finish Nickel",
-          "size": "Size refers to inside dimension from 10mm to 50mm",
-          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+          "subFolderName": "Bold snaps ( Brass)",
+          "imageName": ["bold snaps1.jpg", "bold snaps2.jpg", "bold snaps3.jpg"],
+          "title": "Bold snaps ( Brass)",
+          "description": "Finish: Brass",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
         },
         {
-          "subFolderName": "three",
-          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
-          "title": "F Belt Loop",
-          "description": "Finish Nickel",
-          "size": "Size refers to inside dimension from 10mm to 50mm",
-          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+          "subFolderName": "Bold snaps (Antique Brass)",
+          "imageName": ["bold snaps1.jpg", "bold snaps2.jpg", "bold snaps3.jpg"],
+          "title": "Bold snaps (Antique Brass)",
+          "description": "Finish: Nickel",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
         },
         {
-          "subFolderName": "four",
+          "subFolderName": "Bold snaps (Nickel)",
+          "imageName": ["bold snaps1.jpg", "bold snaps2.jpg", "bold snaps3.jpg"],
+          "title": "Bold snaps (Nickel)",
+          "description": "Finish: Nickel",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "Bracelet clasp",
+      "category": [
+        {
+          "subFolderName": "Bracelet clasp",
+          "title": "Bracelet clasp",
+          "imageName": ["Bracelet Lever Clasp1.jpg", "Bracelet Lever Clasp2.jpg", "Bracelet Lever Clasp3.jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "chain",
+      "category": [
+        {
+          "subFolderName": "chain",
+          "title": "Chain",
+          "imageName": ["chain1.jpg", "chain2.jpg", "chain3.jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "1inch to 100inch",
+          "material": "Material: Brass,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "center bar buckle",
+      "category": [
+        {
+          "subFolderName": "center bar buckle",
+          "title": "center bar buckle",
+          "imageName": ["Center Bar Buckle1.jpg", "Center Bar Buckle2.jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "key ring",
+      "category": [
+        {
+          "subFolderName": "key ring",
+          "title": "key ring",
+          "imageName": ["Key Ring1.jpg", "Key Ring2.jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "18mm to 30mm",
+          "material": "Material: Iron"
+        }
+      ]
+    },
+    {
+      "folderName": "collar button",
+      "category": [
+        {
+          "subFolderName": "collar button",
+          "title": "collar button",
+          "imageName": ["Collar Button1.jpg", "Collar Button2.jpg", "Collar Button3.jpg", "Collar Button4.jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to dimension",
+          "size_line_2": "Standard Size",
+          "material": "Material: Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "d- ring",
+      "category": [
+        {
+          "subFolderName": "d- ring",
+          "title": "d- ring",
+          "imageName": ["D-ring1.jpg", "D-ring2.jpg", "D-ring3.jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "diamond buckle",
+      "category": [
+        {
+          "subFolderName": "diamond buckle",
+          "title": "diamond buckle",
+          "imageName": ["diamond buckle1.jpg", "diamond buckle2.jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "double cap rivets",
+      "category": [
+        {
+          "subFolderName": "double cap rivets",
+          "title": "double cap rivets",
+          "imageName": ["Double Cap Rivet1.jpg", "Double Cap Rivet2.jpg"],
+          "description": "Finish: Nickel ",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "Sizes: 4mm to 15mm",
+          "material": "Material: Iron,Stainless steel,Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "double tongue buckle",
+      "category": [
+        {
+          "subFolderName": "double tongue buckle",
+          "title": "double tongue buckle",
+          "imageName": ["Double Prong Roller Buckle1.jpg", "Double Prong Roller Buckle2.jpg", "Double Prong Roller Buckle3.jpg"],
+          "description": "Finish: Nickel Plate",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "grommets eyelet",
+      "category": [
+        {
+          "subFolderName": "grommets eyelet",
+          "title": "grommets eyelet",
+          "imageName": ["grommets eyelet1.jpg", "grommets eyelet2.jpg"],
+          "description": "Finish: Nickel Plate",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "Size (Inside Diameter): 6mm to 50mm",
+          "material": "Material:- Iron,Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "heel bar buckle",
+      "category": [
+        {
+          "subFolderName": "heel bar buckle",
+          "title": "heel bar buckle",
+          "imageName": ["Heel Bar Buckle1.jpg", "Heel Bar Buckle2.jpg", "Heel Bar Buckle3.jpg"],
+          "description": "Finish: Nickel Plate",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "rivet setters",
+      "category": [
+        {
+          "subFolderName": "rivet setters",
+          "title": "rivet setters",
+          "imageName": ["rivet setters1.jpg", "rivet setters2.jpg"],
+          "description": "Finish: Raw",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "Sizes: 7mm to 15mm",
+          "material": "Material: Iron."
+        }
+      ]
+    },
+    {
+      "folderName": "lever snaps",
+      "category": [
+        {
+          "subFolderName": "lever snaps",
+          "title": "lever snaps",
+          "imageName": ["Lever Snaps1.jpg", "Lever Snaps2.jpg"],
+          "description": "Finish: Nickel ",
+          "size_line_1": "Size refers to inside dimension of base loop.",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "double loop sliders",
+      "category": [
+        {
+          "subFolderName": "double loop sliders",
+          "title": "double loop sliders",
+          "imageName": ["Double Loop Slider  (1).jpg", "Double Loop Slider  (1).jpg", "Double Loop Slider  (2).jpg"],
+          "description": "Finish: Nickel Plate",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "plastic tri glides",
+      "category": [
+        {
+          "subFolderName": "plastic tri glides",
+          "title": "plastic tri glides",
+          "imageName": ["Plastic tri glides (1).jpg", "Plastic tri glides (2).jpg", "Plastic tri glides (3).jpg", "Plastic tri glides (3).jpg", "Plastic tri glides (4).jpg"],
+          "description": "Finish: Black",
+          "size_line_1": "Size: (refers to inside dimension)",
+          "size_line_2": "From 10mm to 50mm",
+          "material": "Material- Plastic"
+        }
+      ]
+    },
+    {
+      "folderName": "wire formed d-rings",
+      "category": [
+        {
+          "subFolderName": "wire formed d-rings",
+          "title": "wire formed d-rings",
+          "imageName": ["wire formed d-rings (1).jpg", "wire formed d-rings (2).jpg", "wire formed d-rings (2).jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "wire formed o-rings",
+      "category": [
+        {
+          "subFolderName": "wire formed o-rings",
+          "title": "wire formed o-rings",
+          "imageName": ["Capture.JPG"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "wire formed single loop slider",
+      "category": [
+        {
+          "subFolderName": "wire formed single loop slider",
+          "title": "wire formed single loop slider",
+          "imageName": ["wire formed single loop slider (1).jpg", "wire formed single loop slider (2).jpg", "wire formed single loop slider (3).jpg", "wire formed single loop slider (4).jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "zipper pulls",
+      "category": [
+        {
+          "subFolderName": "zipper pulls",
+          "title": "zipper pulls",
+          "imageName": ["Zipper pulls (1).jpg", "Zipper pulls (2).jpg", "Zipper pulls (3).jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension",
+          "size_line_2": "from 5no. to 10no.",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron"
+        }
+      ]
+    },
+    {
+      "folderName": "magnetic snaps",
+      "category": [
+        {
+          "subFolderName": "magnetic snaps",
+          "title": "magnetic snaps",
+          "imageName": ["magnetic snaps (1).jpg","magnetic snaps (2).jpg", "magnetic snaps (3).jpg"],
+          "description": "Finish: Nickel Plate",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "Sizes: Standard Size",
+          "material": "Material: Iron"
+        }
+      ]
+    },
+    {
+      "folderName": "o-ring",
+      "category": [
+        {
+          "subFolderName": "o-ring",
+          "title": "o-ring",
+          "imageName": ["O- Ring (1).jpg", "O- Ring (2).jpg", "O- Ring (3).jpg", "O- Ring (4).jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Zinc,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "plastic d-rings",
+      "category": [
+        {
+          "subFolderName": "plastic d-rings",
+          "title": "plastic d-rings",
+          "imageName": ["Plastic D-ring (1).jpg", "Plastic D-ring (2).jpg", "Plastic D-ring (3).jpg"],
+          "description": "Finish: Black",
+          "size_line_1": "Size: (refers to inside dimension)",
+          "size_line_2": "From 10mm to 50mm",
+          "material": "Material- Plastic"
+        }
+      ]
+    },
+    {
+      "folderName": "plastic loops",
+      "category": [
+        {
+          "subFolderName": "plastic loops",
+          "title": "plastic loops",
+          "imageName": ["Plastic Loops (1).jpg", "Plastic Loops (2).jpg", "Plastic Loops (3).jpg"],
+          "description": "Finish: Black",
+          "size_line_1": "Size: (refers to inside dimension)",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material- Plastic"
+        }
+      ]
+    },
+    {
+      "folderName": "roller buckle",
+      "category": [
+        {
+          "subFolderName": "roller buckle",
+          "title": "roller buckle",
+          "imageName": ["roller buckle (1).jpg", "roller buckle (2).jpg", "roller buckle (3).jpg"],
+          "description": "Finish :- Nickel",
+          "size_line_1": "Size refers to inside dimension",
+          "size_line_2": "10mm to 50mm",
+          "material": "Material: Brass,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "side release buckle",
+      "category": [
+        {
+          "subFolderName": "side release buckle",
+          "title": "side release buckle",
+          "imageName": ["Side release buckle (1).jpg", "Side release buckle (2).jpg", "Side release buckle (3).jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension ",
+          "size_line_2": "Standard Size",
+          "material": "Material: Zinc/Plastic"
+        }
+      ]
+    },
+    {
+      "folderName": "single loop slider",
+      "category": [
+        {
+          "subFolderName": "single loop slider",
+          "title": "single loop slider",
+          "imageName": ["Single Loop slider (1).jpg", "Single Loop slider (2).jpg", "Single Loop slider (3).jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "trigger snaps",
+      "category": [
+        {
+          "subFolderName": "trigger snaps",
+          "title": "trigger snaps",
+          "imageName": ["Trigger Snaps (1).jpg", "Trigger Snaps (2).jpg", "Trigger Snaps (3).jpg","Trigger Snaps (4).jpg"],
+          "description": "Finish: Nickel ",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        }
+      ]
+    },
+    {
+      "folderName": "wire formed belt loops",
+      "category": [
+        {
+          "subFolderName": "wire formed belt loops",
+          "title": "wire formed belt loops",
+          "imageName": ["wire formed belt loops (1).jpg", "wire formed belt loops (2).jpg", "wire formed belt loops (3).jpg"],
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "plastic strap adjusters",
+      "category": [
+        {
+          "subFolderName": "plastic strap adjusters",
+          "title": "plastic strap adjusters",
           "imageName": ["one.jpg", "two.jpg", "three.jpg", "four.jpg"],
-          "title": "Z Belt Loop",
-          "description": "Finish Nickel",
-          "size": "Size refers to inside dimension from 10mm to 50mm",
-          "material": "Brass,Stainless Steel,Zinc,Iron,Aluminium"
+          "description": "Finish: Black",
+          "size_line_1": "Size: (refers to inside dimension)",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material- Plastic"
         }
       ]
     }
+    
+    
   ],
+
+  "demo":  
+  {
+    "folderName": "",
+    "category": [
+      {
+        "subFolderName": "",
+        "title": "",
+        "imageName": ["", ""],
+        "description": "",
+        "size_line_1": "",
+        "size_line_2": "",
+        "material": ""
+      }
+    ]
+  }
+  
+  ,
+
   "belt_loop": [
     {
       "folderName": "belt loop",

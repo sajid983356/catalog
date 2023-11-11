@@ -27,7 +27,7 @@ const zoomImgStyle = {
   height: '30rem',
 }
 const hoveringZoomIn = {
-  cursor: 'zoom-in',
+  // cursor: 'zoom-in',
 }
 
 const disableZoomCursor = {
@@ -39,14 +39,24 @@ function ProductCard(props) {
   const [showModal, setShowModal] = useState(false);
   const [selectedImage, setSelectedImage] = useState([]);
   const [title, setTitle] = useState('');
+  const [folderName, setFolderName] = useState('');
+  const [subFolderName, setSubFolderName] = useState('');
+  const [imageName, setImageName] = useState('');
 
-  const handleImageClick = (primaryImage, categoryObject) => {
+  const handleImageClick = (primaryImage, categoryObject, folderName) => {
+    setImageName(primaryImage)
+    setFolderName(folderName);
+    setSubFolderName(categoryObject.subFolderName);
     setTitle(categoryObject.title)
 
     const filterImages =  categoryObject.imageName.filter((secondaryImage) => secondaryImage != primaryImage)
     filterImages.unshift(primaryImage)
+    console.log("----", filterImages)
     setSelectedImage(filterImages);
-    setShowModal(true);
+    setTimeout(() => {
+      setShowModal(true);
+    }, 500);
+    console.log("categoryObject ->", folderName, subFolderName, filterImages)
   };
 
   const handleCloseModal = () => {
@@ -96,7 +106,7 @@ function ProductCard(props) {
                         src={`${process.env.PUBLIC_URL}/img/${folderObject.folderName}/${categoryObject.subFolderName}/${image}`}
                         style={{ ...imgStyle, ...hoveringZoomIn}}
                         alt="First slide"
-                        onClick={() => handleImageClick(image, categoryObject)}
+                        // onClick={() => handleImageClick(image, categoryObject, folderObject.folderName )}
                       />
                   </Carousel.Item>
                     ))
@@ -108,7 +118,7 @@ function ProductCard(props) {
                   <Card.Text>{categoryObject.description}</Card.Text>
                 </Card.Body>
                 <ListGroup className="list-group-flush">
-                  <ListGroup.Item>{categoryObject.size}</ListGroup.Item>
+                  <ListGroup.Item>{categoryObject.size_line_1} <br /> {categoryObject.size_line_2}</ListGroup.Item>
                   <ListGroup.Item>{categoryObject.material}</ListGroup.Item>
                 </ListGroup>
   
@@ -124,20 +134,20 @@ function ProductCard(props) {
                 </Modal.Header>
                 <Modal.Body>
                   <Zoom>
-                    <Carousel data-bs-theme="dark" >
+                    {/* <Carousel data-bs-theme="dark" interval={1000}> */}
                       {
-                        selectedImage.map((image, index) => (
-                          <Carousel.Item key={index}> 
+                        // selectedImage.map((image, index) => (
+                          // <Carousel.Item key={index}> 
                           <img
                             className="d-block w-100"
-                            src={`${process.env.PUBLIC_URL}/img/${folderObject.folderName}/${categoryObject.subFolderName}/${image}`}
+                            src={`${process.env.PUBLIC_URL}/img/${folderName}/${subFolderName}/${imageName}`}
                             style={{ ...zoomImgStyle, ...disableZoomCursor}}
                             alt="First slide"
                           />
-                      </Carousel.Item>
-                        ))
+                      // </Carousel.Item>
+                        // ))
                       }
-                    </Carousel>
+                    {/* </Carousel> */}
                   </Zoom>
                 </Modal.Body>
               </Modal>
