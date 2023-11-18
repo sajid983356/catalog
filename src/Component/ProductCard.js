@@ -82,7 +82,7 @@ function ProductCard(props) {
   }
   
     return (
-    <Row className="row-cols-1 row-cols-md-4 g-4 mb-4 justify-content-center text-center">
+    <Row className="row-cols-1 row-cols-md-4 g-4 justify-content-center text-center">
        { data[selectedCategory].map((folderObject, index) => (
           folderObject.category.map((categoryObject, index) => (
             <Col key={index} style={{ "width": cardWidth }}>

@@ -26,10 +26,10 @@ const MainLayout = () => {
           <Header />
         </Row>
         <Row>
-          <Col sm={2} className="bg-light p-3 text-center">
+          <Col sm={2} className="border p-3 text-center">
             <LeftPanel />
           </Col>
-          <Col sm={10} className="p-3">
+          <Col sm={10} className="border-top p-3">
             <RightPanel />
           </Col>
         </Row>
