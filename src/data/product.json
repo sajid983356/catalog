@@ -30,8 +30,8 @@
       "folderName": "belt loops",
       "category": [
         {
-          "subFolderName": "Belt Loop (Antique Brass)",
-          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "subFolderName": "Antique Brass",
+          "imageName": ["one.jpg", "two.jpg", "three.jpg"],
           "title": "Belt Loop (Antique Brass)",
 
           "description": "Finish: Antique Brass",
@@ -386,7 +386,7 @@
         {
           "subFolderName": "o-ring",
           "title": "o-ring",
-          "imageName": ["O- Ring (1).jpg", "O- Ring (2).jpg", "O- Ring (3).jpg", "O- Ring (4).jpg"],
+          "imageName": ["O- Ring (1).jpg", "O- Ring (2).jpg", "O- Ring (3).png", "O- Ring (4).jpg"],
           "description": "Finish :- Nickel",
           "size_line_1": "Size refers to inside dimension",
           "size_line_2": "from 10mm to 50mm",
@@ -509,7 +509,82 @@
     
     
   ],
+  "view_all1": [
+    {
+      "folderName": "belt loops",
+      "category": [
+        {
+          "subFolderName": "Belt Loop (Antique Brass)",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt Loop (Antique Brass)",
 
+          "description": "Finish: Antique Brass",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "Belt Loop (Brass)",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt Loop (Antique Brass)",
+          "description": "Finish: Brass",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "Belt Loop Nickel Matte",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt Loop (Antique Brass)",
+          "description": "Finish: Nickel Matte",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        },
+        {
+          "subFolderName": "Belt loops (Nickel)",
+          "imageName": ["Belt Loop1.jpg", "Belt Loop2.jpg", "Belt Loop3.jpg"],
+          "title": "Belt loops (Nickel)",
+          "description": "Finish: Nickel",
+          "size_line_1": "Sizes: Size refers to inside dimension.",
+          "size_line_2": "from 10mm to 50mm",
+          "material": "Material: Brass,Stainless Steel,Zinc,Iron,Aluminium"
+        }
+      ]
+    },
+    {
+      "folderName": "bolt snaps",
+      "category": [
+        {
+          "subFolderName": "Bold snaps ( Brass)",
+          "imageName": ["bold snaps1.jpg", "bold snaps2.jpg", "bold snaps3.jpg"],
+          "title": "Bold snaps ( Brass)",
+          "description": "Finish: Brass",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        },
+        {
+          "subFolderName": "Bold snaps (Antique Brass)",
+          "imageName": ["bold snaps1.jpg", "bold snaps2.jpg", "bold snaps3.jpg"],
+          "title": "Bold snaps (Antique Brass)",
+          "description": "Finish: Nickel",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        },
+        {
+          "subFolderName": "Bold snaps (Nickel)",
+          "imageName": ["bold snaps1.jpg", "bold snaps2.jpg", "bold snaps3.jpg"],
+          "title": "Bold snaps (Nickel)",
+          "description": "Finish: Nickel",
+          "size_line_1": "Size refers to inside dimension of base loop",
+          "size_line_2": "Sizes: 10mm to 50mm",
+          "material": "Material: Zinc,Brass"
+        }
+      ]
+    }
+  ],
   "demo":  
   {
     "folderName": "",
