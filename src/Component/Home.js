@@ -4,7 +4,7 @@ import ProductCard from './ProductCard';
 
 function Home() {
     return (
-        <div className="px-2">
+        <div className="px-0">
             <CarouselComponent />
             <div className="mt-4"></div>
             <ProductCard />

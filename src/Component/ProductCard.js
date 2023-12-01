@@ -85,7 +85,7 @@ function ProductCard(props) {
     <Row className="row-cols-1 row-cols-md-4 g-4 justify-content-center text-center">
        { data[selectedCategory].map((folderObject, index) => (
           folderObject.category.map((categoryObject, index) => (
-            <Col key={index} style={{ "width": cardWidth }}>
+            <Col key={index} >
             <Card>
                 <Carousel data-bs-theme="dark" className='pointer-events-none' >
                   {
