@@ -11,7 +11,7 @@ function LeftSideBar() {
   };
 
   return (
-    <div className="" style={{ padding: '3rem 0.5rem 2rem 0.5rem' }}>      
+    <div className="" style={{ padding: '0 0 2rem 0.5rem' }}>      
       <Accordion defaultActiveKey={["0"]} alwaysOpen>
         <Accordion.Item eventKey="0">
           <Accordion.Header>
