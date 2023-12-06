@@ -7,7 +7,7 @@ import {
   Col,
 } from "react-bootstrap";
 import Header from "../main/Header";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import LeftSideBar from "./LeftSideBar";
 import RightPanel from "./RightPanel";
 
