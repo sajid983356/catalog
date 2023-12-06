@@ -1,0 +1,70 @@
+[
+  {
+    "parentFolder": "Handle Holder",
+    "childList": [
+      {
+        "childName": "Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "4201",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Handle Holder",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: Size refers to inside dimension  from 10mm to 50mm ",
+            "material": "Material: Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "4201",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Handle Holder",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: Size refers to inside dimension  from 10mm to 50mm ",
+            "material": "Material: Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "4201",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Handle Holder",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: Size refers to inside dimension  from 10mm to 50mm ",
+            "material": "Material: Brass "
+          },
+          {
+            "grandChildName": "4202",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Handle Holder",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: Size refers to inside dimension  from 10mm to 50mm ",
+            "material": "Material: Brass "
+          }
+        ]
+      }
+    ]
+  }
+]

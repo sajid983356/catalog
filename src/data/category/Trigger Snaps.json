@@ -1,0 +1,636 @@
+[
+  {
+    "parentFolder": "Trigger Snaps",
+    "childList": [
+      {
+        "childName": "Antique Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "4501",
+            "images": [
+              "one.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4502",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4503",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4504",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4505",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4506",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4507",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4508",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4509",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Black Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "4501",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4502",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4503",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4504",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4505",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4506",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4507",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4508",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4509",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Black Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "4501",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4502",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4503",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4504",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4505",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4506",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4507",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4508",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4509",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4510",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Gold",
+        "grandChildList": [
+          {
+            "grandChildName": "4501",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Gold",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4502",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Gold",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4503",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Gold",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4504",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Gold",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4505",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Gold",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "4501",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4502",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4503",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4504",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4505",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4506",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4507",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4508",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4509",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "4501",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4502",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4503",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4504",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4505",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4506",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4507",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          },
+          {
+            "grandChildName": "4508",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Trigger Snaps",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: 10mm to 50mm  Size refers to inside dimension of base loop",
+            "material": "Material: Zinc,Brass "
+          }
+        ]
+      }
+    ]
+  }
+]

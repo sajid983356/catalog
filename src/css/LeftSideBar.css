@@ -1,0 +1,7 @@
+
+.custom-link:hover,
+.custom-link:focus,
+.custom-link:active{
+  color: var(--active-color) !important;
+  /* background-color: transparent !important; */
+}

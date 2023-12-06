@@ -1,0 +1,214 @@
+{
+  "headers": [
+    { "link": "Home", "to": "/", "componentName": "Home" },
+    { "link": "About Us", "to": "/about-us", "componentName": "About" },
+    { "link": "Contact Us", "to": "/contact-us", "componentName": "Contact" }
+  ],
+  "dropdown": [
+    {
+      "link": "Belt Loops",
+      "to": "/category/beltloops",
+      "componentName": "BeltLoops"
+    },
+    {
+      "link": "Bolt Snaps",
+      "to": "/category/boltsnaps",
+      "componentName": "BoltSnaps"
+    },
+    {
+      "link": "Center Bar Buckle",
+      "to": "/category/centerbarbuckle",
+      "componentName": "CenterBarBuckle"
+    },
+    {
+      "link": "Chain",
+      "to": "/category/chain",
+      "componentName": "Chain"
+    },
+    {
+      "link": "Cinch Buckle",
+      "to": "/category/cinchbuckle",
+      "componentName": "CinchBuckle"
+    },
+    {
+      "link": "Collar Button",
+      "to": "/category/collarbutton",
+      "componentName": "CollarButton"
+    },
+    {
+      "link": "Collar Fastener",
+      "to": "/category/collarfastener",
+      "componentName": "CollarFastener"
+    },
+    {
+      "link": "D- Ring",
+      "to": "/category/d-ring",
+      "componentName": "DRing"
+    },
+    {
+      "link": "Double Loop",
+      "to": "/category/doubleloop",
+      "componentName": "DoubleLoop"
+    },
+    {
+      "link": "Double Loop Sliders",
+      "to": "/category/doubleloopsliders",
+      "componentName": "DoubleLoopSliders"
+    },
+    {
+      "link": "Double Tongue Buckle",
+      "to": "/category/doubletonguebuckle",
+      "componentName": "DoubleTongueBuckle"
+    },
+    {
+      "link": "Fish Hook",
+      "to": "/category/fishhook",
+      "componentName": "FishHook"
+    },
+    {
+      "link": "Foot and Stud",
+      "to": "/category/footandstud",
+      "componentName": "FootAndStud"
+    },
+    {
+      "link": "Grommets Eyelet",
+      "to": "/category/grommetseyelet",
+      "componentName": "GrommetsEyelet"
+    },
+    {
+      "link": "Halter Snaps",
+      "to": "/category/haltersnaps",
+      "componentName": "HalterSnaps"
+    },
+    {
+      "link": "Handle Holder",
+      "to": "/category/handleholder",
+      "componentName": "HandleHolder"
+    },
+    {
+      "link": "Heel Bar Buckle",
+      "to": "/category/heelbarbuckle",
+      "componentName": "HeelBarBuckle"
+    },
+    {
+      "link": "Heel Bar Dress Buckle",
+      "to": "/category/heelbardressbuckle",
+      "componentName": "HeelBarDressBuckle"
+    },
+    {
+      "link": "Hoof Pickup Buckle",
+      "to": "/category/hoofpickupbuckle",
+      "componentName": "HoofPickupBuckle"
+    },
+    {
+      "link": "Key Fob",
+      "to": "/category/keyfob",
+      "componentName": "KeyFob"
+    },
+    {
+      "link": "Key Ring",
+      "to": "/category/keyring",
+      "componentName": "KeyRing"
+    },
+    {
+      "link": "Leather Plaque",
+      "to": "/category/leatherplaque",
+      "componentName": "LeatherPlaque"
+    },
+    {
+      "link": "Lever Snaps",
+      "to": "/category/leversnaps",
+      "componentName": "LeverSnaps"
+    },
+    {
+      "link": "Locks _ Closure",
+      "to": "/category/locks_closure",
+      "componentName": "Locks_Closure"
+    },
+    {
+      "link": "Magnetic Snaps",
+      "to": "/category/magneticsnaps",
+      "componentName": "MagneticSnaps"
+    },
+    {
+      "link": "O-Ring",
+      "to": "/category/o-ring",
+      "componentName": "ORing"
+    },
+    {
+      "link": "Plastic Hardware",
+      "to": "/category/plastichardware",
+      "componentName": "PlasticHardware"
+    },
+    {
+      "link": "Rivet",
+      "to": "/category/rivet",
+      "componentName": "Rivet"
+    },
+    {
+      "link": "Rivet Setter",
+      "to": "/category/rivetsetter",
+      "componentName": "RivetSetter"
+    },
+    {
+      "link": "Roller Buckle",
+      "to": "/category/rollerbuckle",
+      "componentName": "RollerBuckle"
+    },
+    {
+      "link": "Screw",
+      "to": "/category/screw",
+      "componentName": "Screw"
+    },
+    {
+      "link": "Screw Pin",
+      "to": "/category/screwpin",
+      "componentName": "ScrewPin"
+    },
+    {
+      "link": "Side Release Buckle",
+      "to": "/category/sidereleasebuckle",
+      "componentName": "SideReleaseBuckle"
+    },
+    {
+      "link": "Single Loop Slider",
+      "to": "/category/singleloopslider",
+      "componentName": "SingleLoopSlider"
+    },
+    {
+      "link": "Snap Button",
+      "to": "/category/snapbutton",
+      "componentName": "SnapButton"
+    },
+    {
+      "link": "Swivel Chain Connector",
+      "to": "/category/swivelchainconnector",
+      "componentName": "SwivelChainConnector"
+    },
+    {
+      "link": "Trigger Snaps",
+      "to": "/category/triggersnaps",
+      "componentName": "TriggerSnaps"
+    },
+    {
+      "link": "Wire Formed D-rings",
+      "to": "/category/wireformedd-rings",
+      "componentName": "WireFormedDRings"
+    },
+    {
+      "link": "Wire Formed Single Loop Slider",
+      "to": "/category/wireformedsingleloopslider",
+      "componentName": "WireFormedSingleLoopSlider"
+    },
+    {
+      "link": "Zipper Pulls",
+      "to": "/category/zipperpulls",
+      "componentName": "ZipperPulls"
+    },
+    {
+      "link": "wire formed o-rings",
+      "to": "/category/wireformedo-rings",
+      "componentName": "WireFormedORings"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "parentFolder": "Hoof Pickup Buckle",
+    "childList": [
+      {
+        "childName": "Antique Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "3701",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Hoof Pickup Buckle",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc "
+          }
+        ]
+      },
+      {
+        "childName": "Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "3701",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Hoof Pickup Buckle",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "3701",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Hoof Pickup Buckle",
+            "description": "Finish: Nickel Plate",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "3701",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Hoof Pickup Buckle",
+            "description": "Finish: Nickel Matte",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc "
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,10 +1,13 @@
 import React from 'react';
-import Header from './Component/Header';
-import MainLayout from './Component/MainLayout';
+import Header from './Component/main/Header';
+import Layout from './Component/layout/Layout';
+import RightPanel from './Component/layout/RightPanel';
+
+
 function App() {
   return (
     <div>
-      <MainLayout />
+      <Layout />
     </div>
   )
 };

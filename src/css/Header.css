@@ -1,0 +1,27 @@
+/* Custom styles for different screen sizes */
+@media (max-width: 575.98px) { /* xs */
+    .custom-offcanvas {
+      width: 60vw !important;
+    }
+  }
+  
+  @media (min-width: 576px) and (max-width: 740px) { /* sm */
+    .custom-offcanvas {
+      width: 60vw !important;
+    }
+  }
+  
+  @media (min-width: 741px) and (max-width: 991.98px) { /* md */
+    .custom-offcanvas {
+      width: 30vw !important;
+    }
+  }
+  
+  /* Add more media queries as needed for larger screens */
+  
+.custom-link:hover,
+.custom-link:focus,
+.custom-link:active{
+  color: var(--active-color) !important;
+  background-color: transparent !important;
+}

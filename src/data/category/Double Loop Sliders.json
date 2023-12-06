@@ -1,0 +1,58 @@
+[
+  {
+    "parentFolder": "Double Loop Sliders",
+    "childList": [
+      {
+        "childName": "Antique Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "2301",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Double Loop Sliders",
+            "description": "Finish: Antique Brass",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc,Iron,Aluminium "
+          }
+        ]
+      },
+      {
+        "childName": "Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "2301",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Double Loop Sliders",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc,Iron,Aluminium "
+          }
+        ]
+      },
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "2301",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Double Loop Sliders",
+            "description": "Finish: Brass",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc,Iron,Aluminium "
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,41 @@
+[
+  {
+    "parentFolder": "Double Tongue Buckle",
+    "childList": [
+      {
+        "childName": "Chrome",
+        "grandChildList": [
+          {
+            "grandChildName": "9001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Double Tongue Buckle",
+            "description": "Finish: Chrome",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc,Iron,Aluminium "
+          }
+        ]
+      },
+      {
+        "childName": "Gold",
+        "grandChildList": [
+          {
+            "grandChildName": "9001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Double Tongue Buckle",
+            "description": "Finish: Gold",
+            "sizes": "Sizes: Size refers to inside dimension  10mm to 50mm ",
+            "material": "Material: Brass,Zinc,Iron,Aluminium "
+          }
+        ]
+      }
+    ]
+  }
+]

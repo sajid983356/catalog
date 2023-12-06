@@ -1,0 +1,5 @@
+.carousel-normal-img {
+     object-fit: fill;
+     height: 5rem !important;
+     background: red;
+}
