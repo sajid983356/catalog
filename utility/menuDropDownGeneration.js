@@ -34,10 +34,10 @@ function convertToObjects(rootFolder) {
   return result;
 }
 
-const rootFolder = 'public/img/products'; // Replace with the actual path
+const rootFolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/public/img/products'; // Replace with the actual path
 const resultArray = convertToObjects(rootFolder);
 
-const outputPath = 'test.json'; // Replace with the desired output path
+const outputPath = '/Users/e123914/Desktop/project/learning/reactjs/catalog/src/data/menuDropDown.json'; // Replace with the desired output path
 fs.writeFileSync(outputPath, JSON.stringify({ "dropdown" :resultArray } , null, 2));
 
-console.log(`menu.json has been saved to: ${outputPath}`);
+console.log(`menuDropDown.json has been saved to: ${outputPath}`);

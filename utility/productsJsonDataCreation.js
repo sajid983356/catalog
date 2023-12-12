@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-const inputFolder = 'public/img/products';
-const outputfolder = 'src/data/category'
+const inputFolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/public/img/products';
+const outputfolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/src/data/category'
 
 function readProductDescription(filePath) {
     try {
