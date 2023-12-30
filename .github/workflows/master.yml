@@ -35,4 +35,4 @@ jobs:
 
     - name: 📁 Unzip on FTP
       run: |
-        sshpass -p ${{ secrets.ftp_password }} ssh ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "unzip -o build.zip && mv build/* ./ && rm -r build && rm build.zip"
+        sshpass -p "${{ secrets.ftp_password }}" ssh -oHostKeyAlgorithms=+ssh-dss -oPreferredAuthentications=password -oPubkeyAuthentication=no ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "unzip -o build.zip && mv build/* ./ && rm -r build && rm build.zip"
