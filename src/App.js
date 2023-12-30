@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from './Component/main/Header';
+// import Header from './Component/main/Header';
 import Layout from './Component/layout/Layout';
-import RightPanel from './Component/layout/RightPanel';
+// import RightPanel from './Component/layout/RightPanel';
 
 
 function App() {

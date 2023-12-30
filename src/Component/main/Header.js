@@ -5,7 +5,7 @@ import {
   Container,
   Offcanvas,
 } from "react-bootstrap";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import '../../css/Header.css'
 import menu from '../../data/menu.json';

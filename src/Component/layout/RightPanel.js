@@ -1,7 +1,7 @@
 import React , { } from 'react';
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Menu from "../main/Menu";
-import CarouselComponent from "../main/Carousel";
+// import CarouselComponent from "../main/Carousel";
 
 
 

@@ -24,7 +24,7 @@ import KeyFob from "../products/KeyFob";
 import KeyRing from "../products/KeyRing";
 import LeatherPlaque from "../products/LeatherPlaque";
 import LeverSnaps from "../products/LeverSnaps";
-import Locks_Closure from "../products/Locks_Closure";
+import LocksClosure from "../products/LocksClosure";
 import MagneticSnaps from "../products/MagneticSnaps";
 import ORing from "../products/ORing";
 import PlasticHardware from "../products/PlasticHardware";
@@ -77,7 +77,7 @@ export const components = {
     LeatherPlaque: <LeatherPlaque />,
     
     LeverSnaps: <LeverSnaps />,
-    Locks_Closure: <Locks_Closure />,
+    LocksClosure: <LocksClosure />,
     MagneticSnaps: <MagneticSnaps />,
     ORing: <ORing />,
     PlasticHardware: <PlasticHardware />,

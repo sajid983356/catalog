@@ -121,9 +121,9 @@
       "componentName": "LeverSnaps"
     },
     {
-      "link": "Locks _ Closure",
-      "to": "/category/locks_closure",
-      "componentName": "Locks_Closure"
+      "link": "Locks Closure",
+      "to": "/category/locksclosure",
+      "componentName": "LocksClosure"
     },
     {
       "link": "Magnetic Snaps",
