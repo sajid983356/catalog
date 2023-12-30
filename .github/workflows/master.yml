@@ -21,8 +21,9 @@ jobs:
         npm install
         npm run build
         mkdir deploy
-        zip -r deploy/build.zip ./build/*
-        mv deploy/build.zip ./build.zip
+        zip -r build.zip ./build/*
+        mv build.zip ./deploy/
+        rm -r build
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
@@ -30,7 +31,7 @@ jobs:
         server: ftp.elegantbuckle.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        local-dir: ./build.zip
+        local-dir: ./deploy/
 
     # - name: 📁 Unzip on FTP
     #   run: |
