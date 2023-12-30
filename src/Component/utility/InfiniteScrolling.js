@@ -15,6 +15,7 @@ function InfiniteScrollling({data}) {
   useEffect(() => {
     // console.log("index, increment, hasMore", index,increment, hasMore, data.slice(index, index+increment))
     setItems(data.slice(index, index+increment));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchMoreData = () => {
@@ -46,10 +47,10 @@ function InfiniteScrollling({data}) {
         <Row xl={5} lg={4} md={3} sm={2} xs={1} className="g-4 justify-content-center text-center">
           {items &&
             items.map((parentObject, index) => {
+              // eslint-disable-next-line no-lone-blocks
               {
                 // console.log("sajid parentObject->",parentObject)
                 // console.log("sajid parentObject->",parentObject.parentFolder)
-
                 return parentObject.childList.map((childObject, index) => {
                   return childObject.grandChildList.map((leafGrandChild, index) => {
                   return (
