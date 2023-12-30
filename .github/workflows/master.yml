@@ -33,6 +33,6 @@ jobs:
         password: ${{ secrets.ftp_password }}
         local-dir: ./deploy/
 
-    # - name: 📁 Unzip on FTP
-    #   run: |
-    #     sshpass -p ${{ secrets.ftp_password }} ssh ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "unzip -o build.zip && mv build/* ./ && rm -r build && rm build.zip"
+    - name: 📁 Unzip on FTP
+      run: |
+        sshpass -p ${{ secrets.ftp_password }} ssh ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "unzip -o build.zip && mv build/* ./ && rm -r build && rm build.zip"
