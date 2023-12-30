@@ -3,7 +3,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import ProductCard from "./ProductCard.js";
 import Loader from "./Loader.js";
 import { Row } from "react-bootstrap";
-import {FOLDER_TO_DISPLAY_COUNT} from '../../data/preloadConfig.js'
+import { FOLDER_TO_DISPLAY_COUNT, INIFINITE_SCROLL_WAIT_TIME_MS } from '../../data/preloadConfig.js'
 
 function InfiniteScrollling({data}) {
   // console.log("inital", data)
@@ -26,10 +26,13 @@ function InfiniteScrollling({data}) {
         // console.log("setting it to false");
         setHasMore(false);
       }
-      setItems((prevItems) => [
-        ...prevItems,
-        ...newItems,
-      ]);
+      setTimeout(() => {
+        setItems((prevItems) => [
+          ...prevItems,
+          ...newItems,
+        ]);
+      }, INIFINITE_SCROLL_WAIT_TIME_MS)
+
       return newIndex;
     });
   };
@@ -39,11 +42,11 @@ function InfiniteScrollling({data}) {
         next={fetchMoreData}
         hasMore={hasMore}
         loader={<Loader />}
-        scrollThreshold={0.6}
+        scrollThreshold={0.7}
         className="min-vh-100"
         // style={{ border: '1px solid black'}}
       >
-        <Row xl={5} lg={4} md={3} sm={2} xs={1} className="g-4 justify-content-center text-center">
+        <Row xl={4} lg={3} md={3} sm={2} xs={1} className="g-4 justify-content-center text-center">
           {items &&
             items.map((parentObject, index) => {
               {

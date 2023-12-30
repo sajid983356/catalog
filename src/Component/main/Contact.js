@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from 'react-icons/fa';
+import {  DESTINATON_LATITUDE , DESTINATION_LONGITUDE } from '../../data/preloadConfig.js'
 
 const ContactUs = () => {
-
   const handleWhatsAppButtonClick = () => {
     // Replace the phone number and message with your own
     const phoneNumber = "9987627053";
@@ -16,6 +16,11 @@ const ContactUs = () => {
 
     // Open the WhatsApp link in a new window or tab
     window.open(whatsappLink, "_blank");
+  };
+
+  const handleGoogleMapButtonClick = () => {
+    const googleMapsUrl = `https://www.google.com/maps/dir//${DESTINATON_LATITUDE},${DESTINATION_LONGITUDE}`;
+    window.open(googleMapsUrl, '_blank');
   };
 
   return (
@@ -38,15 +43,22 @@ const ContactUs = () => {
             <strong>Mobile No:</strong> +91 9987627053
           </p>
           <div className="d-flex">
-              {/* Your other content goes here */}
-              {/* <MdMessage className="mr-2" />&nbsp;&nbsp; */}
-              <button
-                onClick={handleWhatsAppButtonClick}
-                className="btn btn-primary mt-2"
-              >
-                Contact Me on WhatsApp
-              </button>
-            </div>{" "}
+            <button
+              onClick={handleWhatsAppButtonClick}
+              className="btn btn-primary mt-2"
+            >
+              Contact us on WhatsApp
+            </button>
+            <button
+              style={{ marginLeft: '0.5rem' }}
+              onClick={handleGoogleMapButtonClick}
+              className="btn btn-primary mt-2"
+            >
+              Find us on Google Map
+            </button>
+          </div>{" "}
+        </Col>
+        <Col >
         </Col>
       </Row>
     </Container>
