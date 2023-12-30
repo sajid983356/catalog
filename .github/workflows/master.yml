@@ -31,7 +31,7 @@ jobs:
         server: ftp.elegantbuckle.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        local-dir: ./deploy
+        local-dir: ./deploy/
 
     # - name: 📁 Unzip on FTP
     #   run: |
