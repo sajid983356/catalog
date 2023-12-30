@@ -1,3 +1,6 @@
 ./node_modules
 node_modules
 build
+./img/bkp_products/*
+./public/img/bkp_products/*
+./public/img/products/*
