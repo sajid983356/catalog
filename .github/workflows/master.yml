@@ -33,6 +33,15 @@ jobs:
         password: ${{ secrets.ftp_password }}
         local-dir: ./deploy/
 
-    - name: 📁 Unzip on FTP
+    - name: Setup SSH
       run: |
-        sshpass -p "${{ secrets.ftp_password }}" ssh -oHostKeyAlgorithms=+ssh-dss -oPreferredAuthentications=password -oPubkeyAuthentication=no ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "unzip -o build.zip && mv build/* ./ && rm -r build && rm build.zip"
+        mkdir -p ~/.ssh
+        echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+        chmod 600 ~/.ssh/id_rsa
+        ssh-keyscan -t rsa ftp.elegantbuckle.com >> ~/.ssh/known_hosts
+        chmod 644 ~/.ssh/known_hosts
+        ssh -o StrictHostKeyChecking=no ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "echo SSH setup complete"
+
+    - name: Deploy to server
+      run: |
+        ssh -o StrictHostKeyChecking=no ${{ secrets.ftp_username }}@ftp.elegantbuckle.com "unzip -o build.zip && mv build/* ./ && rm -r build && rm build.zip"
