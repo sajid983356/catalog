@@ -8,34 +8,34 @@ jobs:
     name: 🎉 Deploy
     runs-on: ubuntu-latest
     steps:
-    # - name: 🚚 Get latest code
-    #   uses: actions/checkout@v2.3.2
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2.3.2
     
-    # - name: Use Node.js 16
-    #   uses: actions/setup-node@v2
-    #   with:
-    #     node-version: '16'
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
       
-    # - name: 🔨 Build Project
-    #   run: |
-    #     npm install
-    #     npm run build
-    #     mkdir deploy
-    #     zip -r build.zip ./build/*
-    #     mv build.zip ./deploy/
-    #     rm -r build
-
-    # - name: 📂 Sync files
-    #   uses: SamKirkland/FTP-Deploy-Action@4.0.0
-    #   with:
-    #     server: ${{ secrets.ftp_server }}
-    #     username: ${{ secrets.ftp_username }}
-    #     password: ${{ secrets.ftp_password }}
-    #     local-dir: ./deploy/
-
-    - name: 📁 Unzip on FTP
+    - name: 🔨 Build Project
       run: |
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ssh_key.pem
-        chmod 600 ssh_key.pem
-        ssh -i ssh_key.pem -o StrictHostKeyChecking=no -oHostKeyAlgorithms=+ssh-dss ${{ secrets.ftp_username }}@${{ secrets.ftp_server }} "unzip -o build.zip && rm build.zip"
-        rm ssh_key.pem
+        npm install
+        npm run build
+        mkdir deploy
+        zip -r build.zip ./build/*
+        mv build.zip ./deploy/
+        rm -r build
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@4.0.0
+      with:
+        server: ${{ secrets.ftp_server }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
+        local-dir: ./deploy/
+
+    # - name: 📁 Unzip on FTP
+    #   run: |
+    #     echo "${{ secrets.SSH_PRIVATE_KEY }}" > ssh_key.pem
+    #     chmod 600 ssh_key.pem
+    #     ssh -i ssh_key.pem -o StrictHostKeyChecking=no -oHostKeyAlgorithms=+ssh-dss ${{ secrets.ftp_username }}@${{ secrets.ftp_server }} "unzip -o build.zip && rm build.zip"
+    #     rm ssh_key.pem
