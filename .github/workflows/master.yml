@@ -20,7 +20,9 @@ jobs:
       run: |
         npm install
         npm run build
-        zip -r build.zip ./build/*
+        mkdir deploy
+        zip -r deploy/build.zip ./build/*
+        mv deploy/build.zip ./build.zip
 
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
