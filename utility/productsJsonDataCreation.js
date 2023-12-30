@@ -4,6 +4,11 @@ const path = require('path');
 const inputFolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/public/img/products';
 const outputfolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/src/data/category'
 
+
+// const inputFolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/public/img/inputTest';
+// const outputfolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/public/img/outputTest'
+
+
 function readProductDescription(filePath) {
     try {
       const content = fs.readFileSync(filePath, 'utf-8');
