@@ -33,9 +33,9 @@ jobs:
         password: ${{ secrets.ftp_password }}
         local-dir: ./deploy/
 
-    - name: 📁 Unzip on FTP
-      run: |
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ssh_key.pem
-        chmod 600 ssh_key.pem
-        ssh -i ssh_key.pem -o StrictHostKeyChecking=no -oHostKeyAlgorithms=+ssh-dss ${{ secrets.ftp_username }}@${{ secrets.ftp_server }} "unzip -o build.zip && rm build.zip"
-        rm ssh_key.pem
+    # - name: 📁 Unzip on FTP
+    #   run: |
+    #     echo "${{ secrets.SSH_PRIVATE_KEY }}" > ssh_key.pem
+    #     chmod 600 ssh_key.pem
+    #     ssh -i ssh_key.pem -o StrictHostKeyChecking=no -oHostKeyAlgorithms=+ssh-dss ${{ secrets.ftp_username }}@${{ secrets.ftp_server }} "unzip -o build.zip && rm build.zip"
+    #     rm ssh_key.pem
