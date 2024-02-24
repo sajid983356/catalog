@@ -1,5 +1,5 @@
 import React from "react";
-import rivet from "../../data/category/Rivet.json";
+import rivet from "../../data/category/rivet.json";
 import InfiniteScrolling from "../utility/InfiniteScrolling.js";
 
 export default function Rivet() {

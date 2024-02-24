@@ -1,0 +1,87 @@
+[
+  {
+    "parentFolder": "Capsule",
+    "childList": [
+      {
+        "childName": "Antique Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "4001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Capsule",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass, Stainless steel",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Gold Plate",
+        "grandChildList": [
+          {
+            "grandChildName": "4001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Capsule",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass, Stainless steel",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Natural Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "4001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Capsule",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass, Stainless steel",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "4001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Capsule",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass, Stainless steel",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Nickel Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "4001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Capsule",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass, Stainless steel",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

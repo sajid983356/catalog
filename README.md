@@ -2,6 +2,10 @@ Elegant Buckles:
 
 How to add new category:
 
-1. create component in products folder
-2. put your component entry in menu.json
-3. put pur component entry in components.js as object key value pairs.
+- make sure images are present in products folder
+- run menu and products scripts from utility folder.
+- make sure banner folder and banner.json is present
+
+- create component in Component/products folder
+- make sure your component entry in menu.json
+- put pur component entry in utility/components.js as object key value pairs.

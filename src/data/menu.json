@@ -1,214 +1,161 @@
 {
   "headers": [
-    { "link": "Home", "to": "/", "componentName": "Home" },
-    { "link": "About Us", "to": "/about-us", "componentName": "About" },
-    { "link": "Contact Us", "to": "/contact-us", "componentName": "Contact" }
+    {
+      "link": "Home",
+      "to": "/",
+      "componentName": "Home"
+    },
+    {
+      "link": "About Us",
+      "to": "/about-us",
+      "componentName": "About"
+    },
+    {
+      "link": "Contact Us",
+      "to": "/contact-us",
+      "componentName": "Contact"
+    }
   ],
   "dropdown": [
     {
-      "link": "Belt Loops",
-      "to": "/category/beltloops",
-      "componentName": "BeltLoops"
+      "link": "Adjusters",
+      "to": "/category/products/adjusters",
+      "componentName": "Adjusters"
     },
     {
-      "link": "Bolt Snaps",
-      "to": "/category/boltsnaps",
-      "componentName": "BoltSnaps"
+      "link": "Beaded Buckle",
+      "to": "/category/products/beadedbuckle",
+      "componentName": "BeadedBuckle"
     },
     {
-      "link": "Center Bar Buckle",
-      "to": "/category/centerbarbuckle",
+      "link": "Belt Edge",
+      "to": "/category/products/beltedge",
+      "componentName": "BeltEdge"
+    },
+    {
+      "link": "Capsule",
+      "to": "/category/products/capsule",
+      "componentName": "Capsule"
+    },
+    {
+      "link": "Carbine Clip",
+      "to": "/category/products/carbineclip",
+      "componentName": "CarbineClip"
+    },
+    {
+      "link": "Center bar buckle",
+      "to": "/category/products/centerbarbuckle",
       "componentName": "CenterBarBuckle"
     },
     {
-      "link": "Chain",
-      "to": "/category/chain",
-      "componentName": "Chain"
+      "link": "Cotton belt buckle",
+      "to": "/category/products/cottonbeltbuckle",
+      "componentName": "CottonBeltBuckle"
     },
     {
-      "link": "Cinch Buckle",
-      "to": "/category/cinchbuckle",
-      "componentName": "CinchBuckle"
-    },
-    {
-      "link": "Collar Button",
-      "to": "/category/collarbutton",
-      "componentName": "CollarButton"
-    },
-    {
-      "link": "Collar Fastener",
-      "to": "/category/collarfastener",
-      "componentName": "CollarFastener"
-    },
-    {
-      "link": "D- Ring",
-      "to": "/category/d-ring",
+      "link": "D ring",
+      "to": "/category/products/dring",
       "componentName": "DRing"
     },
     {
-      "link": "Double Loop",
-      "to": "/category/doubleloop",
-      "componentName": "DoubleLoop"
+      "link": "Designer Buckle",
+      "to": "/category/products/designerbuckle",
+      "componentName": "DesignerBuckle"
     },
     {
-      "link": "Double Loop Sliders",
-      "to": "/category/doubleloopsliders",
-      "componentName": "DoubleLoopSliders"
+      "link": "Diamond-studded buckle",
+      "to": "/category/products/diamond-studdedbuckle",
+      "componentName": "DiamondStuddedBuckle"
     },
     {
-      "link": "Double Tongue Buckle",
-      "to": "/category/doubletonguebuckle",
-      "componentName": "DoubleTongueBuckle"
+      "link": "Grommet Eyelet",
+      "to": "/category/products/grommeteyelet",
+      "componentName": "GrommetEyelet"
     },
     {
-      "link": "Fish Hook",
-      "to": "/category/fishhook",
-      "componentName": "FishHook"
+      "link": "H-Buckle",
+      "to": "/category/products/h-buckle",
+      "componentName": "Hbuckle"
     },
     {
-      "link": "Foot and Stud",
-      "to": "/category/footandstud",
-      "componentName": "FootAndStud"
+      "link": "Half Round Buckle",
+      "to": "/category/products/halfroundbuckle",
+      "componentName": "HalfRoundBuckle"
     },
     {
-      "link": "Grommets Eyelet",
-      "to": "/category/grommetseyelet",
-      "componentName": "GrommetsEyelet"
-    },
-    {
-      "link": "Halter Snaps",
-      "to": "/category/haltersnaps",
-      "componentName": "HalterSnaps"
-    },
-    {
-      "link": "Handle Holder",
-      "to": "/category/handleholder",
-      "componentName": "HandleHolder"
+      "link": "Heart Buckle",
+      "to": "/category/products/heartbuckle",
+      "componentName": "HeartBuckle"
     },
     {
       "link": "Heel Bar Buckle",
-      "to": "/category/heelbarbuckle",
+      "to": "/category/products/heelbarbuckle",
       "componentName": "HeelBarBuckle"
     },
     {
-      "link": "Heel Bar Dress Buckle",
-      "to": "/category/heelbardressbuckle",
-      "componentName": "HeelBarDressBuckle"
-    },
-    {
-      "link": "Hoof Pickup Buckle",
-      "to": "/category/hoofpickupbuckle",
-      "componentName": "HoofPickupBuckle"
-    },
-    {
-      "link": "Key Fob",
-      "to": "/category/keyfob",
-      "componentName": "KeyFob"
-    },
-    {
       "link": "Key Ring",
-      "to": "/category/keyring",
+      "to": "/category/products/keyring",
       "componentName": "KeyRing"
     },
     {
-      "link": "Leather Plaque",
-      "to": "/category/leatherplaque",
-      "componentName": "LeatherPlaque"
+      "link": "Keychain",
+      "to": "/category/products/keychain",
+      "componentName": "Keychain"
     },
     {
-      "link": "Lever Snaps",
-      "to": "/category/leversnaps",
-      "componentName": "LeverSnaps"
+      "link": "Locket",
+      "to": "/category/products/locket",
+      "componentName": "Locket"
     },
     {
-      "link": "Locks Closure",
-      "to": "/category/locksclosure",
-      "componentName": "LocksClosure"
+      "link": "Loops",
+      "to": "/category/products/loops",
+      "componentName": "Loops"
     },
     {
-      "link": "Magnetic Snaps",
-      "to": "/category/magneticsnaps",
-      "componentName": "MagneticSnaps"
+      "link": "Monogram",
+      "to": "/category/products/monogram",
+      "componentName": "Monogram"
     },
     {
-      "link": "O-Ring",
-      "to": "/category/o-ring",
+      "link": "O ring",
+      "to": "/category/products/oring",
       "componentName": "ORing"
     },
     {
-      "link": "Plastic Hardware",
-      "to": "/category/plastichardware",
-      "componentName": "PlasticHardware"
+      "link": "Oval shape Buckle",
+      "to": "/category/products/ovalshapebuckle",
+      "componentName": "OvalShapeBuckle"
+    },
+    {
+      "link": "Plastic Snap",
+      "to": "/category/products/plasticsnap",
+      "componentName": "PlasticSnap"
+    },
+    {
+      "link": "Retro Belt",
+      "to": "/category/products/retrobelt",
+      "componentName": "RetroBelt"
     },
     {
       "link": "Rivet",
-      "to": "/category/rivet",
+      "to": "/category/products/rivet",
       "componentName": "Rivet"
     },
     {
-      "link": "Rivet Setter",
-      "to": "/category/rivetsetter",
-      "componentName": "RivetSetter"
+      "link": "School Buckle",
+      "to": "/category/products/schoolbuckle",
+      "componentName": "SchoolBuckle"
     },
     {
-      "link": "Roller Buckle",
-      "to": "/category/rollerbuckle",
-      "componentName": "RollerBuckle"
+      "link": "Snap Hook",
+      "to": "/category/products/snaphook",
+      "componentName": "SnapHook"
     },
     {
-      "link": "Screw",
-      "to": "/category/screw",
-      "componentName": "Screw"
-    },
-    {
-      "link": "Screw Pin",
-      "to": "/category/screwpin",
-      "componentName": "ScrewPin"
-    },
-    {
-      "link": "Side Release Buckle",
-      "to": "/category/sidereleasebuckle",
-      "componentName": "SideReleaseBuckle"
-    },
-    {
-      "link": "Single Loop Slider",
-      "to": "/category/singleloopslider",
-      "componentName": "SingleLoopSlider"
-    },
-    {
-      "link": "Snap Button",
-      "to": "/category/snapbutton",
-      "componentName": "SnapButton"
-    },
-    {
-      "link": "Swivel Chain Connector",
-      "to": "/category/swivelchainconnector",
-      "componentName": "SwivelChainConnector"
-    },
-    {
-      "link": "Trigger Snaps",
-      "to": "/category/triggersnaps",
-      "componentName": "TriggerSnaps"
-    },
-    {
-      "link": "Wire Formed D-rings",
-      "to": "/category/wireformedd-rings",
-      "componentName": "WireFormedDRings"
-    },
-    {
-      "link": "Wire Formed Single Loop Slider",
-      "to": "/category/wireformedsingleloopslider",
-      "componentName": "WireFormedSingleLoopSlider"
-    },
-    {
-      "link": "Zipper Pulls",
-      "to": "/category/zipperpulls",
-      "componentName": "ZipperPulls"
-    },
-    {
-      "link": "wire formed o-rings",
-      "to": "/category/wireformedo-rings",
-      "componentName": "WireFormedORings"
+      "link": "Square Ring",
+      "to": "/category/products/squarering",
+      "componentName": "SquareRing"
     }
   ]
 }

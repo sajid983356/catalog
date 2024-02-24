@@ -1,11 +1,12 @@
 import React from "react";
-import heel_bar_buckle from "../../data/category/Heel Bar Buckle.json";
+import heelBarBuckle from "../../data/category/heelBarBuckle.json";
 import InfiniteScrolling from "../utility/InfiniteScrolling.js";
 
-export default function HeelBarBuckle() {
+function HeelBarBuckle() {
   return (
     <div className="px-2 mt-4">
-      <InfiniteScrolling data={heel_bar_buckle}  />
+      <InfiniteScrolling data={heelBarBuckle}  />
     </div>
   );
 }
+export default HeelBarBuckle;

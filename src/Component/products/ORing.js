@@ -1,5 +1,5 @@
 import React from "react";
-import oring from "../../data/category/O-Ring.json";
+import oring from "../../data/category/oRing.json";
 import InfiniteScrolling from "../utility/InfiniteScrolling.js";
 
 export default function ORing() {

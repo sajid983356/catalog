@@ -1,0 +1,23 @@
+[
+  {
+    "parentFolder": "Carbine Clip",
+    "childList": [
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "5001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Carbine Clip",
+            "material": "Material:- Alliminuim,Iron",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

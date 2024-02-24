@@ -1,5 +1,6 @@
 const fs = require('fs');
 const path = require('path');
+const headers = require('../src/data/headers.json')
 
 function convertToObjects(rootFolder) {
   const result = [];
@@ -37,7 +38,7 @@ function convertToObjects(rootFolder) {
 const rootFolder = '/Users/e123914/Desktop/project/learning/reactjs/catalog/public/img/products'; // Replace with the actual path
 const resultArray = convertToObjects(rootFolder);
 
-const outputPath = '/Users/e123914/Desktop/project/learning/reactjs/catalog/src/data/menuDropDown.json'; // Replace with the desired output path
-fs.writeFileSync(outputPath, JSON.stringify({ "dropdown" :resultArray } , null, 2));
+const outputPath = '/Users/e123914/Desktop/project/learning/reactjs/catalog/src/data/menu.json'; // Replace with the desired output path
+fs.writeFileSync(outputPath, JSON.stringify({ headers, "dropdown" :resultArray } , null, 2));
 
 console.log(`menuDropDown.json has been saved to: ${outputPath}`);

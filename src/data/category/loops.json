@@ -1,0 +1,23 @@
+[
+  {
+    "parentFolder": "Loops",
+    "childList": [
+      {
+        "childName": "Black",
+        "grandChildList": [
+          {
+            "grandChildName": "1901",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Loops",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

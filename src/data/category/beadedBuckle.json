@@ -1,0 +1,87 @@
+[
+  {
+    "parentFolder": "Beaded Buckle",
+    "childList": [
+      {
+        "childName": "Antique Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "2001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Beaded Buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Gold Plate",
+        "grandChildList": [
+          {
+            "grandChildName": "2001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Beaded Buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Natural Brass",
+        "grandChildList": [
+          {
+            "grandChildName": "2001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Beaded Buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "2001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Beaded Buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      },
+      {
+        "childName": "Nickel Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "2001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Beaded Buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

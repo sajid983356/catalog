@@ -81,13 +81,14 @@ function ProductCard(props) {
 
           <Card.Body className="text-center">
             <Card.Title>{leafGrandChild.title}</Card.Title>
-            <Card.Text className="small">{leafGrandChild.description} - {leafGrandChild.grandChildName}</Card.Text>
+            {/* <Card.Text className="small">{leafGrandChild.description} - {leafGrandChild.grandChildName}</Card.Text> */}
+            <Card.Text className="small">Model No: {leafGrandChild.grandChildName}</Card.Text>
+
           </Card.Body>
-          <ListGroup className="list-group-flush" style={{ textAlign: 'justify'}}>
-            <ListGroup.Item>
-              {leafGrandChild.sizes}
-            </ListGroup.Item>
-            <ListGroup.Item style={{ textAlign: 'left'}}>{leafGrandChild.material}</ListGroup.Item>
+          {/* <ListGroup className="list-group-flush" style={{ textAlign: 'justify'}}> */}
+          <ListGroup className="list-group-flush" style={{ textAlign: 'left'}}>
+            <ListGroup.Item >{leafGrandChild.material}</ListGroup.Item>
+            <ListGroup.Item> {leafGrandChild.color} </ListGroup.Item>
           </ListGroup>
 
           <Modal
