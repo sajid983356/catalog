@@ -1,8 +1,0 @@
-Finish: Antique Brass
-
-Sizes: Size refers to inside dimension
-
-from 10mm to 50mm
-
-Material: Brass,Stainless Steel,Zinc,Iron,Aluminium
-

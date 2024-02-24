@@ -1,0 +1,45 @@
+[
+  {
+    "parentFolder": "Diamond-studded buckle",
+    "childList": [
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "10001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Diamond-studded buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          },
+          {
+            "grandChildName": "10002",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Diamond-studded buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          },
+          {
+            "grandChildName": "10003",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Diamond-studded buckle",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

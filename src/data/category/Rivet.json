@@ -6,269 +6,47 @@
         "childName": "Antique Brass",
         "grandChildList": [
           {
-            "grandChildName": "3101",
+            "grandChildName": "2501",
             "images": [
               "one.webp",
               "three.webp",
               "two.webp"
             ],
             "title": "Rivet",
-            "description": "Finish :- Antique Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Antique Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3103",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Antique Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3104",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Antique Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
+            "material": "Material:- Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
           }
         ]
       },
       {
-        "childName": "Black Matte",
+        "childName": "Gold Plate",
         "grandChildList": [
           {
-            "grandChildName": "3101",
+            "grandChildName": "2501",
             "images": [
               "one.webp",
               "three.webp",
               "two.webp"
             ],
             "title": "Rivet",
-            "description": "Finish :- Black Matte",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Black Matte",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
+            "material": "Material:- Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
           }
         ]
       },
       {
-        "childName": "Brass",
+        "childName": "Natural Brass",
         "grandChildList": [
           {
-            "grandChildName": "3101",
+            "grandChildName": "2501",
             "images": [
               "one.webp",
               "three.webp",
               "two.webp"
             ],
             "title": "Rivet",
-            "description": "Finish :- Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3103",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3104",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3105",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          }
-        ]
-      },
-      {
-        "childName": "Brass Raw",
-        "grandChildList": [
-          {
-            "grandChildName": "3101",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3103",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Brass Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          }
-        ]
-      },
-      {
-        "childName": "Copper Raw",
-        "grandChildList": [
-          {
-            "grandChildName": "3101",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Copper Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Copper Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3103",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Copper Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3104",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Copper Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3105",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Copper Raw",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          }
-        ]
-      },
-      {
-        "childName": "Gold",
-        "grandChildList": [
-          {
-            "grandChildName": "3101",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish: Gold",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass  "
+            "material": "Material:- Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
           }
         ]
       },
@@ -276,52 +54,15 @@
         "childName": "Nickel",
         "grandChildList": [
           {
-            "grandChildName": "3101",
+            "grandChildName": "2501",
             "images": [
               "one.webp",
               "three.webp",
               "two.webp"
             ],
             "title": "Rivet",
-            "description": "Finish :- Nickel",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Nickel",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3103",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Nickel",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3104",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Nickel",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
+            "material": "Material:- Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
           }
         ]
       },
@@ -329,52 +70,15 @@
         "childName": "Nickel Matte",
         "grandChildList": [
           {
-            "grandChildName": "3101",
+            "grandChildName": "2501",
             "images": [
               "one.webp",
               "three.webp",
               "two.webp"
             ],
             "title": "Rivet",
-            "description": "Finish :- Nickel Matte",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3102",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Nickel Matte",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3103",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Nickel Matte",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
-          },
-          {
-            "grandChildName": "3104",
-            "images": [
-              "one.webp",
-              "three.webp",
-              "two.webp"
-            ],
-            "title": "Rivet",
-            "description": "Finish :- Nickel Matte",
-            "sizes": "Sizes: Size refers to inside dimension  Standard Size ",
-            "material": "Material: Brass,Iron"
+            "material": "Material:- Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
           }
         ]
       }

@@ -1,11 +1,12 @@
 import React from "react";
-import d_ring from "../../data/category/D- Ring.json";
+import dring from "../../data/category/dRing.json";
 import InfiniteScrolling from "../utility/InfiniteScrolling.js";
 
-export default function DRing() {
+function DRing() {
   return (
     <div className="px-2 mt-4">
-      <InfiniteScrolling data={d_ring}  />
+      <InfiniteScrolling data={dring}  />
     </div>
   );
 }
+export default DRing;

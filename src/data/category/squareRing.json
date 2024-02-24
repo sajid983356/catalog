@@ -1,0 +1,23 @@
+[
+  {
+    "parentFolder": "Square Ring",
+    "childList": [
+      {
+        "childName": "2801",
+        "grandChildList": [
+          {
+            "grandChildName": "Black",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Square Ring",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

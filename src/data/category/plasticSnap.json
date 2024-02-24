@@ -1,0 +1,23 @@
+[
+  {
+    "parentFolder": "Plastic Snap",
+    "childList": [
+      {
+        "childName": "2301",
+        "grandChildList": [
+          {
+            "grandChildName": "Black",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Plastic Snap",
+            "material": "Material:- PLastic",
+            "color": "Color:- Black"
+          }
+        ]
+      }
+    ]
+  }
+]

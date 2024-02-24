@@ -1,11 +1,12 @@
 import React from "react";
-import key_ring from "../../data/category/Key Ring.json";
+import keyRing from "../../data/category/keyRing.json";
 import InfiniteScrolling from "../utility/InfiniteScrolling.js";
 
-export default function KeyRing() {
+function KeyRing() {
   return (
     <div className="px-2 mt-4">
-      <InfiniteScrolling data={key_ring}  />
+      <InfiniteScrolling data={keyRing}  />
     </div>
   );
 }
+export default KeyRing;

@@ -1,0 +1,23 @@
+[
+  {
+    "parentFolder": "Locket",
+    "childList": [
+      {
+        "childName": "Nickel",
+        "grandChildList": [
+          {
+            "grandChildName": "1801",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Locket",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -13,23 +13,31 @@ function readProductDescription(filePath) {
     try {
       const content = fs.readFileSync(filePath, 'utf-8');
       const lines = content.split('\n').map(line => line.trim());
-  
-      const descriptionIndex = lines.findIndex(line => line.startsWith('Finish'));
-      const sizesIndex = lines.findIndex(line => line.startsWith('Size'));
-      const materialIndex = lines.findIndex(line => line.startsWith('Material'));
-  
-      const description = descriptionIndex !== -1 ? lines[descriptionIndex] : '';
-      let sizes = sizesIndex !== -1 ? lines.slice(sizesIndex, materialIndex !== -1 ? materialIndex : undefined).join(' ') : '';
-      const material = materialIndex !== -1 ? lines.slice(materialIndex).join(' ') : '';
-
-      // console.log("sizes -> ", sizes)
-      if (!sizes.includes('sizes:') && !sizes.includes('Sizes:') && !sizes.includes('size:')) {
-        // console.log("inside true before size", sizes)
-        sizes = 'Sizes: ' + sizes;
-        // console.log("inside true after size", sizes)
-      }
-  
-      return { description, sizes, material };
+   
+      let materialData = '';
+      let colorData = '';
+    
+      let readingMaterial = true;
+    
+      // Loop through each line
+      lines.forEach(line => {
+    
+        if(line.length === 0) {
+            return
+        }
+        if (line.toLocaleLowerCase().includes("color")) {
+            readingMaterial = false;
+            colorData += line.trim() + ' ';
+            return
+        }
+        if (readingMaterial) {
+            materialData += line.trim() + ' ';
+        } else {
+            colorData += line.trim() + ' ';
+        }
+      });
+    
+      return { material: materialData.trim(), color: colorData.trim() };
     } catch (error) {
       console.error(`Error reading product description file: ${filePath}`);
       return { description: '', sizes: '', material: '' };
@@ -71,7 +79,7 @@ function createFolderStructure(folderPath) {
             if (txtFiles.length > 0) {
                 const productDescriptionPath = path.join(grandChildPath, txtFiles[0]);
                 // console.log(grandChildPath, productDescriptionPath)
-                const { description, sizes, material } = readProductDescription(productDescriptionPath);
+                const { material, color } = readProductDescription(productDescriptionPath);
                 // console.log("description -> ",description);
                 // console.log("sizes -> ", sizes);
                 // console.log("material -> ", material);
@@ -79,9 +87,8 @@ function createFolderStructure(folderPath) {
                 grandChildObject.grandChildName = grandChild.name,
                 grandChildObject.images = images;
                 grandChildObject.title = parentFolderName;
-                grandChildObject.description = description;
-                grandChildObject.sizes = sizes;
                 grandChildObject.material = material;
+                grandChildObject.color = color;
 
               } else {
                 console.error(`No .txt file found in grandchild folder: ${childFolderPath}`);
@@ -96,7 +103,18 @@ function createFolderStructure(folderPath) {
 
   // Create a JSON file for the parent folder
   const parentJsonContent = JSON.stringify([parentObject], null, 2);
-  fs.writeFileSync(path.join(outputfolder, `${parentFolderName}.json`), parentJsonContent);
+
+  const folderName = parentFolderName.split(' ');
+
+  // Capitalize the first letter of each word except the first one
+  const camelCaseFolderName = folderName.map((name, index) =>
+    index === 0 ? name.toLowerCase() : name.charAt(0).toUpperCase() + name.slice(1).toLowerCase()
+  );
+
+  // Join the words together
+  camelCaseParentsName = camelCaseFolderName.join('');
+
+  fs.writeFileSync(path.join(outputfolder, `${camelCaseParentsName}.json`), parentJsonContent);
 
   return parentObject;
 }

@@ -1,101 +1,84 @@
 import About from "../main/About";
 import Home from "../main/Home";
 import Contact from "../main/Contact";
-import BeltLoops from "../products/BeltLoops";
-import BoltSnaps from "../products/BoltSnaps";
-import CenterBarBuckle from "../products/CenterBarBuckle";
-import Chain from "../products/Chain";
-import CinchBuckle from "../products/CinchBuckle";
-import CollarButton from "../products/CollarButton";
-import CollarFastener from "../products/CollarFastener";
-import DRing from "../products/DRing";
-import DoubleLoop from "../products/DoubleLoop";
-import DoubleLoopSliders from "../products/DoubleLoopSliders";
-import DoubleTongueBuckle from "../products/DoubleTongueBuckle";
-import FishHook from "../products/FishHook";
-import FootAndStud from "../products/FootAndStud";
-import GrommetsEyelet from "../products/GrommetsEyelet";
-import HalterSnaps from "../products/HalterSnaps";
-import HandleHolder from "../products/HandleHolder";
-import HeelBarBuckle from "../products/HeelBarBuckle";
-import HeelBarDressBuckle from "../products/HeelBarDressBuckle";
-import HoofPickupBuckle from "../products/HoofPickupBuckle";
-import KeyFob from "../products/KeyFob";
-import KeyRing from "../products/KeyRing";
-import LeatherPlaque from "../products/LeatherPlaque";
-import LeverSnaps from "../products/LeverSnaps";
-import LocksClosure from "../products/LocksClosure";
-import MagneticSnaps from "../products/MagneticSnaps";
-import ORing from "../products/ORing";
-import PlasticHardware from "../products/PlasticHardware";
-import Rivet from "../products/Rivet";
-import RivetSetter from "../products/RivetSetter";
-import RollerBuckle from "../products/RollerBuckle";
-import Screw from "../products/Screw";
-import ScrewPin from "../products/ScrewPin";
-import SideReleaseBuckle from "../products/SideReleaseBuckle";
-import SingleLoopSlider from "../products/SingleLoopSlider";
-import SnapButton from "../products/SnapButton";
-import SwivelChainConnector from "../products/SwivelChainConnector";
-import TriggerSnaps from "../products/TriggerSnaps";
-import WireFormedDRings from "../products/WireFormedDRings";
-import WireFormedSingleLoopSlider from "../products/WireFormedSingleLoopSlider";
-import ZipperPulls from "../products/ZipperPulls";
-import WireFormedORings from "../products/WireFormedORings";
 
+import Adjusters from "../products/Adjusters";
+import BeadedBuckle from "../products/BeadedBuckle";
+import BeltEdge from "../products/BeltEdge"
+
+import Capsule from "../products/Capsule"
+import CarbineClip from "../products/CarbineClip"
+import CenterBarBuckle from "../products/CenterBarBuckle"
+
+import CottonBeltBuckle from "../products/CottonBeltBuckle"
+import DRing from "../products/DRing"
+import DesignerBuckle from "../products/DesignerBuckle"
+
+import DiamondStuddedBuckle from "../products/DiamondStuddedBuckle"
+import GrommetEyelet from "../products/GrommetEyelet"
+import Hbuckle from "../products/Hbuckle"
+
+import HalfRoundBuckle from "../products/HalfRoundBuckle"
+import HeartBuckle from "../products/HeartBuckle"
+import HeelBarBuckle from "../products/HeelBarBuckle"
+
+import KeyRing from "../products/KeyRing"
+import Keychain from "../products/Keychain"
+import Locket from "../products/Locket"
+
+import Loops from "../products/Loops"
+import Monogram from "../products/Monogram"
+import ORing from "../products/ORing"
+
+import OvalShapeBuckle from "../products/OvalShapeBuckle"
+import PlasticSnap from "../products/PlasticSnap"
+import RetroBelt from "../products/RetroBelt"
+
+import Rivet from "../products/Rivet"
+import SchoolBuckle from "../products/SchoolBuckle"
+import SnapHook from "../products/SnapHook"
+import SquareRing from "../products/SquareRing"
 
 export const components = {
     About: <About />,
     Home: <Home />,
     Contact: <Contact />,
-    BeltLoops: <BeltLoops />,
-    BoltSnaps: <BoltSnaps />,
+    
+    Adjusters: <Adjusters/>,
+    BeadedBuckle: <BeadedBuckle />,
+    BeltEdge: <BeltEdge />,
 
-
+    Capsule: <Capsule />,
+    CarbineClip: <CarbineClip />,
     CenterBarBuckle: <CenterBarBuckle />,
-    Chain: <Chain />,
-    CinchBuckle: <CinchBuckle />,
-    CollarButton: <CollarButton />,
-    CollarFastener: <CollarFastener />,
-
+    
+    CottonBeltBuckle: <CottonBeltBuckle />,
     DRing: <DRing />,
-    DoubleLoop: <DoubleLoop />,
-    DoubleLoopSliders: <DoubleLoopSliders />,
-    DoubleTongueBuckle: <DoubleTongueBuckle />,
-    FishHook: <FishHook />,
+    DesignerBuckle: <DesignerBuckle />,
+    
+    DiamondStuddedBuckle: <DiamondStuddedBuckle />,
+    GrommetEyelet: <GrommetEyelet />,
+    Hbuckle: <Hbuckle />,
 
-    FootAndStud: <FootAndStud />,
-    GrommetsEyelet: <GrommetsEyelet />,
-    HalterSnaps: <HalterSnaps />,
-    HandleHolder: <HandleHolder />,
+    HalfRoundBuckle: <HalfRoundBuckle />,
+    HeartBuckle: <HeartBuckle />,
     HeelBarBuckle: <HeelBarBuckle />,
 
-    HeelBarDressBuckle: <HeelBarDressBuckle />,
-    HoofPickupBuckle: <HoofPickupBuckle />,
-    KeyFob: <KeyFob />,
     KeyRing: <KeyRing />,
-    LeatherPlaque: <LeatherPlaque />,
-    
-    LeverSnaps: <LeverSnaps />,
-    LocksClosure: <LocksClosure />,
-    MagneticSnaps: <MagneticSnaps />,
+    Keychain: <Keychain />,
+    Locket: <Locket />,
+
+    Loops: <Loops />,
+    Monogram: <Monogram />,
     ORing: <ORing />,
-    PlasticHardware: <PlasticHardware />,
+
+    OvalShapeBuckle: <OvalShapeBuckle />,
+    PlasticSnap: <PlasticSnap />,
+    RetroBelt: <RetroBelt />,
 
     Rivet: <Rivet />,
-    RivetSetter: <RivetSetter />,
-    RollerBuckle: <RollerBuckle />,
-    Screw: <Screw />,
-    ScrewPin: <ScrewPin />,
-
-    SideReleaseBuckle: <SideReleaseBuckle />,
-    SingleLoopSlider: <SingleLoopSlider />,
-    SnapButton: <SnapButton />,
-    SwivelChainConnector: <SwivelChainConnector />,
-    TriggerSnaps: <TriggerSnaps />,
+    SchoolBuckle: <SchoolBuckle />,
+    SnapHook: <SnapHook />,
     
-    WireFormedDRings: <WireFormedDRings />,
-    WireFormedSingleLoopSlider: <WireFormedSingleLoopSlider />,
-    ZipperPulls: <ZipperPulls />,
-    WireFormedORings: <WireFormedORings />
-};
+    SquareRing: <SquareRing />,
+ };

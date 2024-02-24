@@ -1,0 +1,23 @@
+[
+  {
+    "parentFolder": "Belt Edge",
+    "childList": [
+      {
+        "childName": "Black Matte",
+        "grandChildList": [
+          {
+            "grandChildName": "3001",
+            "images": [
+              "one.webp",
+              "three.webp",
+              "two.webp"
+            ],
+            "title": "Belt Edge",
+            "material": "Material:- Zinc Alloy,Copper,Alliminuim,Iron,Solid Brass",
+            "color": "Color:- Gold, Gunmetal, Nickel, Silver, Antique brass, Antique Copper, Black, etc."
+          }
+        ]
+      }
+    ]
+  }
+]
